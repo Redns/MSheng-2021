@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=CS Pin=SPI-4
+Removed Pin From Net: NetName=SYNC Pin=SPI-5
+Added Pin To Net: NetName=SYNC Pin=SPI-4
+Added Pin To Net: NetName=CS Pin=SPI-5
+Added Room: Name=core
+Added Room: Name=fda
+Added Room: Name=filter
+Added Room: Name=power
+Added Room: Name=reference

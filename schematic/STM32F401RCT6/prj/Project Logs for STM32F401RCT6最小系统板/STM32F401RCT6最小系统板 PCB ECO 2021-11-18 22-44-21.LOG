@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=GND Pin=ADC_CH1-1
+Removed Pin From Net: NetName=GND Pin=ADC_CH2-1
+Added Pin To Net: NetName=GND Pin=ADC_CH1-2
+Added Pin To Net: NetName=GND Pin=ADC_CH1-2
+Added Pin To Net: NetName=GND Pin=ADC_CH1-2
+Added Pin To Net: NetName=GND Pin=ADC_CH1-2
+Added Pin To Net: NetName=GND Pin=ADC_CH2-2
+Added Pin To Net: NetName=GND Pin=ADC_CH2-2
+Added Pin To Net: NetName=GND Pin=ADC_CH2-2
+Added Pin To Net: NetName=GND Pin=ADC_CH2-2
+Added Pin To Net: NetName=NetADC_CH1_1 Pin=ADC_CH1-1
+Added Pin To Net: NetName=NetADC_CH1_1 Pin=R6-1
+Added Net: Name=NetADC_CH1_1
+Added Pin To Net: NetName=NetADC_CH2_1 Pin=ADC_CH2-1
+Added Pin To Net: NetName=NetADC_CH2_1 Pin=R7-1
+Added Net: Name=NetADC_CH2_1
+Added Room: Name=Analog
+Added Room: Name=IO
+Added Room: Name=Keys
+Added Room: Name=STM32F401RCT6最小系统板
+Added Room: Name=USB-TTL

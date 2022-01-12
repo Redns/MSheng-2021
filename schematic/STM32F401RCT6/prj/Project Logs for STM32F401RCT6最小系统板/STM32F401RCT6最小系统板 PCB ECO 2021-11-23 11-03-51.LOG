@@ -1,0 +1,9 @@
+Added Component: Designator=Ctrl(DC-8P)
+Added Pin To Net: NetName=PB12 Pin=Ctrl-1
+Added Pin To Net: NetName=PB13 Pin=Ctrl-2
+Added Pin To Net: NetName=PB14 Pin=Ctrl-3
+Added Pin To Net: NetName=PB15 Pin=Ctrl-4
+Added Pin To Net: NetName=GND Pin=Ctrl-5
+Added Pin To Net: NetName=GND Pin=Ctrl-6
+Added Pin To Net: NetName=GND Pin=Ctrl-7
+Added Pin To Net: NetName=GND Pin=Ctrl-8

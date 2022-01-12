@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=VCC Pin=C8-1
+Removed Pin From Net: NetName=AVSS Pin=C8-2
+Removed Pin From Net: NetName=VCC Pin=C22-1
+Removed Pin From Net: NetName=AVSS Pin=C22-2
+Removed Member From Class: ClassName=power Member=C8
+Removed Member From Class: ClassName=power Member=C22
+Added Room: Name=core
+Added Room: Name=fda
+Added Room: Name=filter
+Added Room: Name=power
+Added Room: Name=reference

@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=GPIO0 Pin=GPIO-1
+Removed Pin From Net: NetName=GPIO1 Pin=GPIO-3
+Added Pin To Net: NetName=GPIO1 Pin=GPIO-1
+Added Pin To Net: NetName=GPIO0 Pin=GPIO-3
+Added Room: Name=core
+Added Room: Name=fda
+Added Room: Name=filter
+Added Room: Name=power
+Added Room: Name=reference

@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=VCC_USB Pin=USB1-1
+Removed Pin From Net: NetName=D- Pin=USB1-2
+Removed Pin From Net: NetName=D+ Pin=USB1-3
+Removed Pin From Net: NetName=GND Pin=USB1-4
+Removed Member From Class: ClassName=USB-TTL Member=USB1
+Added Component: Designator=USB(USB_Micro)
+Added Pin To Net: NetName=VCC_USB Pin=USB-1
+Added Pin To Net: NetName=D- Pin=USB-2
+Added Pin To Net: NetName=D+ Pin=USB-3
+Added Pin To Net: NetName=GND Pin=USB-5
+Added Member To Class: ClassName=USB-TTL Member=Component USB USB_Mini/Micro
+Added Room: Name=Analog
+Added Room: Name=IO
+Added Room: Name=Keys
+Added Room: Name=STM32F401RCT6最小系统板
+Added Room: Name=USB-TTL

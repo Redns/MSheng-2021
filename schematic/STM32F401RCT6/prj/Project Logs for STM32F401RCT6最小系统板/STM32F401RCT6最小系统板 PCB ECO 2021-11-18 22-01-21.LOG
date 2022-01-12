@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=VCC_USB Pin=POWER-1
+Removed Pin From Net: NetName=VCC_BOARD Pin=POWER-3
+Added Pin To Net: NetName=VCC_BOARD Pin=POWER-1
+Added Pin To Net: NetName=VCC_USB Pin=POWER-3
+Added Room: Name=Analog
+Added Room: Name=IO
+Added Room: Name=Keys
+Added Room: Name=STM32F401RCT6最小系统板
+Added Room: Name=USB-TTL

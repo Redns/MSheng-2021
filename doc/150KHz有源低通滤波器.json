@@ -1,0 +1,68 @@
+{
+	"Name": "150KHz有源低通滤波器",
+	"Description": "通带：150kHz\n阻带：500kHz\n纹波：0.01dB\n衰减：-50dB",
+	"Tool": "FW",
+	"Version": "1.1",
+	"Design": {
+		"visitedTabs": [
+			"filter-type",
+			"specifications",
+			"components",
+			"tolerances"
+		],
+		"filterType": "lowPass",
+		"specifications": {
+			"gain": 0,
+			"gainUnit": "dB",
+			"passbandAttenuation": -3,
+			"passbandFrequency": 150000,
+			"stopbandAttenuation": -40,
+			"stopbandFrequency": 500000,
+			"filterResponseValue": 0.01,
+			"filterResponseSlider": "46",
+			"centerFrequency": null
+		},
+		"components": {
+			"vsPlus": 5,
+			"vsMinus": -5,
+			"optimization": "Power",
+			"optimizationPreference": "nonSpecific",
+			"compensateForGbw": false,
+			"stages": [
+				{
+					"stageLetter": "A",
+					"componentSizing": 51,
+					"gain": 164,
+					"gainEnabled": false,
+					"implementation": "sallenKey",
+					"opAmps": "ADA4084-2"
+				},
+				{
+					"stageLetter": "B",
+					"componentSizing": 50,
+					"gain": 164,
+					"gainEnabled": false,
+					"implementation": "sallenKey",
+					"opAmps": "ADA4084-2"
+				}
+			],
+			"recommendedAmps": [],
+			"sortOrder": [
+				0,
+				1
+			]
+		},
+		"tolerances": {
+			"resistorTolerance": "1%",
+			"capacitorTolerance": "1%",
+			"inductorTolerance": "5%",
+			"opAmpGbwTolerance": "20%",
+			"resistorPreferredSeries": "E96",
+			"capacitorPreferredSeries": "E24",
+			"inductorPreferredSeries": "E12"
+		},
+		"nextSteps": {}
+	},
+	"CreatedDate": "2021-11-29 07:32:25 PM",
+	"UpdatedDate": "2021-11-29 07:32:25 PM"
+}

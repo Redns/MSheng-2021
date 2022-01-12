@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/VS_code_mingw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+                "C:/Users/LJ/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.2/Drivers/STM32F4xx_HAL_Driver/Inc",
+                "C:/Users/LJ/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.2/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy",
+                "C:/Users/LJ/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.2/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                "C:/Users/LJ/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.2/Drivers/CMSIS/Include"   
+            ],
+            "defines": [
+                "__CC_ARM",
+                "USE_HAL_DRIVER",
+                "STM32F401xC"
+            ],
+            "windowsSdkVersion": "10.0.17763.0",
+            "compilerPath": "D:/vs2017/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c99",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
